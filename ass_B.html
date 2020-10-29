@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html>
+<style>
+    form {
+        font-size: large;
+        font-variant: small-caps;
+    }
+
+    label.req {
+        font-weight: bold;
+    }
+
+    input[type=submit] {
+        background-color: royalblue;
+        color: wheat;
+    }
+
+    input[type=text],
+    input[type=password] {
+        border: 2px solid red;
+        border-radius: 4px;
+    }
+
+    input[type=submit],
+    input[type="reset"] {
+        padding: 5px
+    }
+</style>
 
 <head>
-    <title>Ass_B</title>
+    <title>Ass_B and D</title>
 </head>
 
 <body>
-    <label for="text1">Text:</label>
-    <input type="text" id="text1" name="text1"></br></br>
-    <label for="pswd">Password:</label>
-    <input type="password" id="pswd" name="pswd"></br></br>
-    <label for="chkbx">Chekbox:</label>
-    <input type="checkbox" id="chkbx" name="chkbx"></br></br>
-    <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Male</label><br>
-    <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female</label><br>
-    <input type="radio" id="other" name="gender" value="other">
-    <label for="other">Other</label></br>
-    </br>
-    <label for="nmbs">Choose a number:</label>
-    <select name="numbers" id="nmbs">
-        <option value="13">13</option>
-        <option value="46">46</option>
-        <option value="79">79</option>
-    </select>
-    </br></br>
-    <textarea id="txtarea" name="txtarea" rows="4" cols="50">Some text</textarea>
-    </br></br>
-    <input type="submit" value="Submit">
-    
-    <input type="reset" value="Reset">
+    <form>
+        <label class="req" for="login">Login:</label>
+        <input type="text" id="login" name="login"></br></br>
+        <label class="req" for="pswd">Password:</label>
+        <input type="password" id="pswd" name="pswd"></br></br>
+        <label for="chkbx">Chekbox:</label>
+        <input type="checkbox" id="chkbx" name="chkbx"></br></br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label></br>
+        </br>
+        <label for="nmbs">Choose a number:</label>
+        <select name="numbers" id="nmbs">
+            <option value="13">13</option>
+            <option value="46">46</option>
+            <option value="79">79</option>
+        </select>
+        </br></br>
+        <textarea id="txtarea" name="txtarea" rows="4" cols="50">Some text</textarea>
+        </br></br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
 </body>
 
 </html>
