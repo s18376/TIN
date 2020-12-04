@@ -1,0 +1,19 @@
+{
+  "name": "tin",
+  "version": "1.0.0",
+  "description": "s18376_tin_07",
+  "main": "7a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s18376/TIN.git"
+  },
+  "author": "s18376",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s18376/TIN/issues"
+  },
+  "homepage": "https://github.com/s18376/TIN#readme"
+}
